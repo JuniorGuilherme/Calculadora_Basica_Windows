@@ -1,0 +1,134 @@
+﻿<Window x:Class="Calculadora_Basica_Windows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculadora_Basica_Windows"
+        mc:Ignorable="d"
+        Title="Calculadora Windows" Height="424.4" Width="553">
+    <Grid Margin="0,10,-7,-19.6">
+        <Button Name="btnUm"
+                Content="1"
+                Click="btn_Um" Margin="158,194,346,88"  
+                Height="30"
+                Width="30"
+                />
+        <Button Name="btnDois"
+                Content="2"
+                Click="btn_Dois" Margin="193,194,311,88"  
+                Height="30"
+                Width="30"
+                />
+        <Button Name="btnTres"
+                Content="3"
+                Click="btn_Tres" Margin="228,194,276,88"  
+                Height="30"
+                Width="30"
+                />
+        <Button Name="btnQuatro"
+                Content="4"
+                Click="btn_Quatro" Margin="158,159,346,123"  
+                Height="30"
+                Width="30" RenderTransformOrigin="0.353,0.587"
+                />
+        <Button Name="btnCinco"
+                Content="5"
+                Click="btn_Cinco" Margin="193,159,311,123"  
+                Height="30"
+                Width="30"
+                />
+        <Button Name="btnSeis"
+                Content="6"
+                Click="btn_Seis" Margin="228,159,276,123"  
+                Height="30"
+                Width="30"
+                />
+        <Button Name="btnSete"
+                Content="7"
+                Click="btn_Sete" Margin="158,124,346,158"  
+                Height="30"
+                Width="30"
+                />
+        <Button Name="btnOito"
+                Content="8"
+                Click="btn_Oito" Margin="193,124,311,158"  
+                Height="30"
+                Width="30"
+                />
+        <Button Name="btnNove"
+                Content="9"
+                Click="btn_Nove" Margin="228,124,276,158"  
+                Height="30"
+                Width="30"
+                />
+        <Button Name="btnZero"
+                Content="0"
+                Click="btn_Zero" Margin="188,229,307,53"  
+                Height="30"
+                Width="30"
+                />
+        <Button Name="btnSoma"
+                Content="+"
+                Click="btn_Soma" Margin="258,194,237,88"  
+                Height="30"
+                Width="30"
+                />
+        <Button Name="btnSub"
+                Content="-"
+                Click="btn_Sub" Margin="263,159,241,123"  
+                Height="30"
+                Width="30"
+                />
+        <Button Name="btnDiv"
+                Content="÷"
+                Click="btn_Div" Margin="263,89,241,193"  
+                Height="30"
+                Width="30"
+                />
+        <Button Name="btnMulti"
+                Content="x"
+                Click="btn_Multi" Margin="263,124,241,158"  
+                Height="30"
+                Width="30"
+                />
+        <Button Name="btnResult"
+                Content="="
+                Click="btn_Result" Margin="258,229,237,53"  
+                Height="30"
+                Width="30"
+                />
+        <Button Name="btnVirg"
+                Content=","
+                Click="btn_Virg" Margin="228,229,276,53"  
+                Height="30"
+                Width="30"
+                />
+        <Button Name="btnQuad"
+                Content="x²"
+                Click="btn_Quad" Margin="228,89,276,193"  
+                Height="30"
+                Width="30"
+                />
+        <Button Name="btnC"
+                Content="C"
+                Click="btn_C" Margin="153,229,342,53"  
+                Height="30"
+                Width="30"
+                />
+        <Button Name="btnPorcent"
+                Content="%"
+                Click="btn_Porcent"
+                Height="30"
+                Width="30" Margin="158,89,346,193"
+                />
+        <Button Name="btnRaiz"
+                Content="√"
+                Click="btn_Click"
+                Height="30"
+                Width="30" Margin="193,89,311,193"
+                />               
+        <TextBox Name="txtCaixa_Num" Margin="167,75,249.8,285" FontSize="21.333" FlowDirection="RightToLeft" BorderBrush="Black" BorderThickness="2"
+                />
+
+    </Grid>
+</Window>
